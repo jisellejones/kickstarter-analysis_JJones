@@ -6,10 +6,10 @@ Past analyses of crowdfunding data, showed a possible correlation between the su
 ---
 ### Purpose
 This analysis proposes to answer the following questions:
-*How do different theater campaigns for plays fare in relation to their launch date?
-*Are some months of the year better than others for launching theater campaigns for plays?
-*How do different theater campaigns for plays fare in relation to their funding goals?
-*Is there any pattern in the amount of funding goals and the success of theater campaigns for plays? Are campaigns in some goal ranges more successful than campaigns in other goal ranges?
+* How do different theater campaigns for plays fare in relation to their launch date?
+* Are some months of the year better than others for launching theater campaigns for plays?
+* How do different theater campaigns for plays fare in relation to their funding goals?
+* Is there any pattern in the amount of funding goals and the success of theater campaigns for plays? Are campaigns in some goal ranges more successful than campaigns in other goal ranges?
 
 ---
 ## Analysis and Challenges
