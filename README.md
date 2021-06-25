@@ -1,4 +1,4 @@
-#Kickstarting with Excel
+# Kickstarting with Excel
 
 ## Overview of Project
 Past analyses of crowdfunding data, showed a possible correlation between the success of Kickstarter campaigns, their launch dates, and their funding goals. This analysis will dive more deeply into the outcomes of Kickstarter campaigns in relation to their launch dates and funding goals.
