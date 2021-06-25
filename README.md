@@ -1,7 +1,7 @@
 #Kickstarting with Excel
 
 ## Overview of Project
-Past analysis of crowdfunding data, showed a possible correlation between the success of Kickstarter campaigns, their launch dates, and their funding goals. This analysis will dive more deeply into the outcomes of Kickstarter campaigns in relation to their launch dates and funding goals.
+Past analyses of crowdfunding data, showed a possible correlation between the success of Kickstarter campaigns, their launch dates, and their funding goals. This analysis will dive more deeply into the outcomes of Kickstarter campaigns in relation to their launch dates and funding goals.
 
 ---
 ### Purpose
@@ -9,17 +9,19 @@ This analysis proposes to answer the following questions:
 *How do different theater campaigns for plays fare in relation to their launch date?
 *Are some months of the year better than others for launching theater campaigns for plays?
 *How do different theater campaigns for plays fare in relation to their funding goals?
-*Is there any pattern in the amount of funding goals and the success of theater campaigns for plays?
+*Is there any pattern in the amount of funding goals and the success of theater campaigns for plays? Are campaigns in some goal ranges more successful than campaigns in other goal ranges?
 
 ---
 ## Analysis and Challenges
-The crowdfunding data used in this analysis was pulled from the Boot Camp database. Data for theater campaigns
+The crowdfunding data used in this analysis was pulled from the University of Oregon Data Analysis Boot Camp database. The data was filtered and analyzed using Excel's formulas, statistical tools, and graphic displays. 
 
 ### Analysis of Outcomes Based on Launch Date
+How do different theater campaigns for plays fare in relation to their launch date? Are some months of the year better than others for launching theater campaigns for plays? In order to answer these questions, we should look at the 
 
 ### Analysis of Outcomes Based on Goals
 
 ### Challenges and Difficulties Encountered
+Unfortunately, there was not enough data in the plays category to capture patterns within the canceled campaigns. Future analyses may consider taking a closer look at this data set by analyzing canceled campaigns across all parent categories rather than simply the play subcategory.
 
 ## Results
 
