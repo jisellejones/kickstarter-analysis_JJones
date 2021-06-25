@@ -17,11 +17,17 @@ The crowdfunding data used in this analysis was pulled from the University of Or
 
 
 ### Analysis of Outcomes Based on Launch Date
-How do different theater campaigns for plays fare in relation to their launch date? Are some months of the year better than others for launching theater campaigns for plays? In order to answer these questions, we filtered the theater data by month and disagregated the data by outcome. For successful campaigns, we see a spike in the graph around May and then a decline over from May to September; however, there are still a high number of successful campaigns during June. This could indicate that starting a campaign in May or June may yield the highest success rate. While the overall data for outcomes based on launch date show a high success rate during the month of May, the data also show a spike in the number of campaigns that fail. In fact, the month of May shows the highest failure rate of all the months. This leads to the question, "Is the higher number of both successes and failures due to the higher number of campaigns started during the month of May?" In order to answer this question, we compared the percentages of successful and failed campaigns for each month (graph 2). The graph based on percentages still shows an increase of succesfful campaigns in the month of May, but now we see a decrease in the percentage of failed campaigns during the same month indicating that indeed, beginning a campaign in the month of may could yield higher rates of success. The percentage of failed campaigns spike during the month of December while the percentage of successful campaigns decreases in the same month which wou
+How do different theater campaigns fare in relation to their launch date? Are some months of the year better than others for launching theater campaigns? In order to answer these questions, we filtered the theater data by month and disagregated the data by outcome. For successful campaigns, we see a spike in the graph around May and then a decline from May to September; however, there is still a high number of successful campaigns during June. This could indicate that starting a campaign in May or June may yield the highest success rate, but we need to dive further into the data before making a definitive conclusion.
 
+While the overall data for outcomes based on launch date show a high success rate during the month of May, the data also show a spike in the number of campaigns that fail. In fact, the month of May shows the highest failure rate of all the months. This leads to the question, "Is the higher number of both successes and failures due to the higher number of total campaigns started during the month of May?" In order to answer this question, we compared the percentages of successful and failed campaigns for each month (graph 2). The graph based on percentages still shows an increase of succesful campaigns in the month of May, but now we see a decrease in the percentage of failed campaigns during the same month indicating that, indeed, beginning a campaign in the month of may could yield higher rates of success. 
+
+The percentage of failed campaigns spike during the month of December while the percentage of successful campaigns decreases in the same month indicating that December would be the worst month to start a campaign.
+---
+(graph 1)
 ___
 ![Theater_Outcomes_vs_Launch](https://github.com/jisellejones/kickstarter-analysis_JJones/blob/main/Outcomes%20Based%20on%20Launch%20Date.png)
-
+---
+(graph 2)
 ![Theater_Outcomes_vs_Launch_Percentage](https://github.com/jisellejones/kickstarter-analysis_JJones/blob/main/Theater_Outcomes_vs_Launch_percentage.png)
 ---
 The graph shows a 
