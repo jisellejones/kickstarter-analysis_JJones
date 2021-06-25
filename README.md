@@ -14,9 +14,11 @@ This analysis proposes to answer the following questions:
 ---
 ## Analysis and Challenges
 The crowdfunding data used in this analysis was pulled from the University of Oregon Data Analysis Boot Camp database. The data was filtered and analyzed using Excel's formulas, statistical tools, and graphic displays. 
+[Parent_Category_Outcomes](
 
 ### Analysis of Outcomes Based on Launch Date
-How do different theater campaigns for plays fare in relation to their launch date? Are some months of the year better than others for launching theater campaigns for plays? In order to answer these questions, we should look at the 
+How do different theater campaigns for plays fare in relation to their launch date? Are some months of the year better than others for launching theater campaigns for plays? In order to answer these questions, we filtered the theater data by month. The graph shows the data
+
 
 ### Analysis of Outcomes Based on Goals
 
