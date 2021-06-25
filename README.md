@@ -1,10 +1,19 @@
 #Kickstarting with Excel
 
 ## Overview of Project
+Past analysis of crowdfunding data, showed a possible correlation between the success of Kickstarter campaigns, their launch dates, and their funding goals. This analysis will dive more deeply into the outcomes of Kickstarter campaigns in relation to their launch dates and funding goals.
 
+---
 ### Purpose
+This analysis proposes to answer the following questions:
+*How do different theater campaigns for plays fare in relation to their launch date?
+*Are some months of the year better than others for launching theater campaigns for plays?
+*How do different theater campaigns for plays fare in relation to their funding goals?
+*Is there any pattern in the amount of funding goals and the success of theater campaigns for plays?
 
+---
 ## Analysis and Challenges
+The crowdfunding data used in this analysis was pulled from the Boot Camp database. Data for theater campaigns
 
 ### Analysis of Outcomes Based on Launch Date
 
