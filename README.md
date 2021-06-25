@@ -20,6 +20,8 @@ The crowdfunding data used in this analysis was pulled from the University of Or
 How do different theater campaigns for plays fare in relation to their launch date? Are some months of the year better than others for launching theater campaigns for plays? In order to answer these questions, we filtered the theater data by month and disagregated the data by outcome. For successful campaigns, we see a spike in the graph around May and then a decline over from May to September; however, there are still a high number of successful campaigns during June. This indicates that starting a campaign in May or Juune may yield the highest success rate. The graph shows 
 It would be worth further analysis to hone in on the months of successful campaigns in May and June to determine
 ![Theater_Outcomes_vs_Launch](https://github.com/jisellejones/kickstarter-analysis_JJones/blob/main/Outcomes%20Based%20on%20Launch%20Date.png)
+
+![Theater_Outcomes_vs_Launch_Percentage](https://github.com/jisellejones/kickstarter-analysis_JJones/blob/main/Theater_Outcomes_vs_Launch_percentage.png)
 ---
 The graph shows a 
 ---
