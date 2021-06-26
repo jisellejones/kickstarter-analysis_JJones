@@ -66,4 +66,4 @@ Unfortunately, there was not enough data in the plays category to capture patter
 
 Future analyses may also consider looking at correlations between the successful and failed campaigns in months where a greater percentage of campaigns were successful and months where a greater percentage of campaigns failed along side the campaign goal data for those months to determine if there are better or worse campaign goals during different months of the year.
 
-Also, it would be interesting to see all the campaign goal data in a box plot to determine if there are any overall trends similar to the trends found in campaign goals for plays.
+It would be interesting to see all the campaign goal data in a box plot to determine if there are any outliers in the overall data set. It would also be interesting to look at this same data compared to just campaign goals for plays in either another line graph or a double bar graph, to see if there are similar trends in the overall data compared to the campaign goal data for plays.
