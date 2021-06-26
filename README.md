@@ -10,7 +10,8 @@ This analysis proposes to answer the following questions:
 * Are some months of the year better than others for launching theater campaigns for plays?
 * Are some months of the year worse than others for launching theater campaigns for plays?
 * How do different theater campaigns for plays fare in relation to their funding goals?
-* Is there any pattern in the amount of funding goals and the success of theater campaigns for plays? Are campaigns in some goal ranges more successful than campaigns in other goal ranges?
+* Is there any pattern in the amount of funding goals and the success of theater campaigns for plays? 
+* Are campaigns for plays in some goal ranges more successful than campaigns in other goal ranges?
 
 ---
 ## Analysis and Challenges
@@ -35,8 +36,11 @@ Are some months of the year worse than others for launching theater campaigns fo
 ### Analysis of Outcomes Based on Goals
 How do different theater campaigns for plays fare in relation to their funding goals? Is there any pattern in the amount of funding goals and the success of theater campaigns for plays? Are campaigns in some goal ranges more successful than campaigns in other goal ranges? To answer these questions, I created a frequency table using Excel's countifs() formula to sift through the data and count the number of plays with specified outcomes (successful, failed, canceled) based on different ranges of campaign goals. I compiled this data in a frequency chart then used Excel's sum() function to find the total number of campaigns that fall within different ranges in order to find the percentage of successful, failed, and canceled campaigns. We combined this data in the line graph shown *(graph 3)*
 
-From the graph we can see a pattern of decline in the percentage of successful campaigns from less than $1,000 to $29,999. Campaigns less than $1,000 show a 67% success rate while and campaigns between $1,000 and $4,999 have a 73% success rate. After this the percentage of successful campaigns begins to increase again then drops significantly when campaign goals hit $45,000 or more. The number of failed campaigns displays a smiliar trend declining percentage of succFrom the line graph, we can see that campaigns with campaign goals of $1,000 fair
+Campaign goals of less than $1,000 show a 76% success rate and campaigns goals between $1,000 and $4,999 have a 73% success rate. These are the highest success rates indicating that it is best to set campaign goals within these ranges. From the graph, we can see a pattern of decline in the percentage of successful campaigns after these ranges to $29,999. Then the percentage of successful campaigns begins to increase again dropping significantly when campaign goals hit $45,000 or more. Failed campaigns follow an opposite trend. 
 
+It is important to point out that campaigns with goals of $35,000 to $44,999 show success rates of 67%. It may seem that this should indicate a likelihood of success when setting goals within these ranges; however, there were only 9 campaigns within this range, I do not believe this is enough data to draw a solid conclusion.
+
+It was impossible to do any analysis on the canceled campaigns as there were 0 campaigns canceled for this data set. The lack of canceled campaigns for this data set leads to the question, "What could cause campaigns to be canceled?" and, "Why are there canceled campaigns in other categories/subcategories, but not for plays?"
 
 ---
 *(graph 3)*
@@ -44,23 +48,21 @@ From the graph we can see a pattern of decline in the percentage of successful c
 
 
 ### Challenges and Difficulties Encountered
-When trying to reach a conclusion about which month might be best or worse to begin a campaign, it was difficult to reach a conlusion from looking at only the number of outcomes. It was difficult to differentiate between the success of campaigns being correlated with the month of the year or the higher number of campaigns launched. In May 166 campaigns were launched versus December when only 75 campaigns were launched, so we had to consider a different method of analysis to eliminate the number of campaigns. 
+When trying to reach a conclusion about which month might be best or worse to begin a campaign, it was difficult to reach a conlusion from looking at only the number of outcomes. It was difficult to differentiate between the success of campaigns being correlated with the month of the year or the higher number of campaigns launched. In May 166 campaigns were launched versus December when only 75 campaigns were launched, so we had to consider a different method of analysis to eliminate the number of campaigns.
+
+When comparing the outcomes to the campaign goals, the data showed a 67% success rate for campaigns with goals from $35,000 to $44,999. Based on percentages alone, it would seem reasonable to conclude that these goal ranges would be more likely to yield successful campaigns; however, there are only 9 campaigns total for this range of campaign goals. I would be unreasonable to make any conclusions based on such a small amount of data. 
 
 ---
 ## Results
 From these analyses, we can conclude that May is the best month to begin a campaign. We can also conclude that beginning a campaign in December may increase the likelihood of the campaign failing.
 
-Campaigns that have a campaign goal of less than $5,000 are more likely to be successful than campaigns that have campaign goals of $5,000 or more.
+Campaigns that have a campaign goal of less than $5,000 are more likely to be successful than campaigns that have campaign goals of $5,000 or more. The number of campaigns was small for campaign numbers with goals in the range of $25,000 to $49,999 rendering the analysis inconclusive for campaign goals in these ranges. However, out of 14 
 
 While there was a substantial amount of data for this dataset, the data was gathered from many different countries. In order to determine the likelihood of success in a particular country, further filtering could be applied to determine if conclusions drawn for all countries applies to a particular country. 
 
 Unfortunately, there was not enough data in the plays category to capture patterns within the canceled campaigns during particular months of the year. There was no data about canceled campaigns when determining the outcomes of campaigns based on campaign goals. Future analyses may consider taking a closer look at this data set by analyzing canceled campaigns across all parent categories or all subcategories of theater campaigns rather than simply the play subcategory.
 
-
-
-
-- What are some other possible tables and/or graphs that we could create?
-Since the data comparing campaign outcomes to campaign goals was gathered as different ranges, a histogram or scatterplot might be more useful when analyzing the data to determine. 
+Since the data comparing campaign outcomes to campaign goals was gathered as different ranges, a box plot or scatterplot may offer some deeper insight into the data.
 
 Future analyses may also consider looking at correlations between the successful and failed campaigns in months where a greater percentage of campaigns were successful and months where a greater percentage of campaigns failed along side the campaign goal data for those months to determine if there are better or worse campaign goals during different months of the year.
 
