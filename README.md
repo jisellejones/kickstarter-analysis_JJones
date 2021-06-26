@@ -32,7 +32,6 @@ Are some months of the year worse than others for launching theater campaigns fo
 ---
 *(graph 2)*
 ![Theater_Outcomes_vs_Launch_Percentage](https://github.com/jisellejones/kickstarter-analysis_JJones/blob/main/Theater_Outcomes_vs_Launch_percentage.png)
-
 ---
 ### Analysis of Outcomes Based on Goals
 How do different theater campaigns for plays fare in relation to their funding goals? Is there any pattern in the amount of funding goals and the success of theater campaigns for plays? Are campaigns in some goal ranges more successful than campaigns in other goal ranges? To answer these questions, I created a frequency table using Excel's countifs() formula to sift through the data and count the number of plays with specified outcomes (successful, failed, canceled) based on different ranges of campaign goals. I compiled this data in a frequency chart then used Excel's sum() function to find the total number of campaigns that fall within different ranges in order to find the percentage of successful, failed, and canceled campaigns. I combined this data in the line graph shown *(graph 3)*.
@@ -51,20 +50,20 @@ It was impossible to do any analysis on the canceled campaigns as there were 0 c
 ### Challenges and Difficulties Encountered
 When trying to reach a conclusion about which month might be best or worse to begin a campaign, it was difficult to reach a conlusion from looking at only the number of outcomes. It was difficult to differentiate between the success of campaigns being correlated with the month of the year or the higher number of campaigns launched. In May, 166 campaigns were launched versus December when only 75 campaigns were launched, so I had to consider a different method of analysis to eliminate the number of campaigns as a variable.
 
-When comparing the outcomes to the campaign goals, the data showed a 67% success rate for campaigns with goals from $35,000 to $44,999. Based on percentages alone, it would seem reasonable to conclude that these goal ranges would be more likely to yield successful campaigns; however, there are only 9 campaigns total for this range of campaign goals. It would be unreasonable to make any conclusions based on such a small amount of data. 
+When comparing the outcomes to the campaign goals, the data showed a 67% success rate for campaigns with goals from $35,000 to $44,999. Based on percentages alone, it would seem reasonable to conclude that these goal ranges would be more likely to yield successful campaigns; however, there are only 9 campaigns total for this range of campaign goals. It would be unreasonable to make any conclusions based on such a small amount of data.
+
+Since the data comparing campaign outcomes to campaign goals was gathered as different ranges, I considered using a histogram to see if I could gather any further information. This did not yield further insights; however, a box plot for each outcome or scatterplot may offer some deeper insight into the data.
 
 ---
 ## Results
 From these analyses, I can conclude that May is the best month to begin a campaign. I can also conclude that beginning a campaign in December may increase the likelihood of the campaign failing. It would be interesting to do some research into what makes a successful campaign during December and what causes a play to fail in May. 
 
-Campaigns that have a campaign goal of less than $5,000 are more likely to be successful than campaigns that have campaign goals of $5,000 or more. The number of campaigns was small for campaign numbers with goals in the range of $25,000 to $49,999 rendering the analysis inconclusive for campaign goals in these ranges. However, out of 14 
+Campaigns that have a campaign goal of less than $5,000 are more likely to be successful than campaigns that have campaign goals of $5,000 or more. The number of campaigns was small for campaign numbers with goals in the range of $25,000 to $49,999 rendering the analysis inconclusive for campaign goals in these ranges. However, for the 16 campaign goals that were set for $50,000 or more, there were only 2 that were successful. More research could be done on these successful campaigns.
 
 While there was a substantial amount of data for this dataset, the data was gathered from many different countries. In order to determine the likelihood of success in a particular country, further filtering could be applied to determine if conclusions drawn for all countries applies to a particular country. 
 
-Unfortunately, there was not enough data in the plays category to capture patterns within the canceled campaigns during particular months of the year. There was no data about canceled campaigns when determining the outcomes of campaigns based on campaign goals. Future analyses may consider taking a closer look at this data set by analyzing canceled campaigns across all parent categories or all subcategories of theater campaigns rather than simply the play subcategory.
-
-Since the data comparing campaign outcomes to campaign goals was gathered as different ranges, a box plot or scatterplot may offer some deeper insight into the data.
+Unfortunately, there was not enough data in the plays category to capture patterns within the canceled campaigns during particular months of the year and there was no data about canceled campaigns when determining the outcomes of campaigns based on campaign goals. Future analyses may consider taking a closer look at this data set by analyzing canceled campaigns across all parent categories or all subcategories of theater campaigns rather than simply the play subcategory.
 
 Future analyses may also consider looking at correlations between the successful and failed campaigns in months where a greater percentage of campaigns were successful and months where a greater percentage of campaigns failed along side the campaign goal data for those months to determine if there are better or worse campaign goals during different months of the year.
 
-It would be interesting to research the 2 successful campaigns with campaign goals amounts of $50,000 or more. Was there a sponsor for these campaigns before they launched? Were these campaigns launched in a specific country?
+Also, it would be interesting to see all the campaign goal data in a box plot to determine if there are any overall trends similar to the trends found in campaign goals for plays.
