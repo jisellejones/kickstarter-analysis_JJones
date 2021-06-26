@@ -32,6 +32,7 @@ Are some months of the year worse than others for launching theater campaigns fo
 ---
 *(graph 2)*
 ![Theater_Outcomes_vs_Launch_Percentage](https://github.com/jisellejones/kickstarter-analysis_JJones/blob/main/Theater_Outcomes_vs_Launch_percentage.png)
+
 ---
 ### Analysis of Outcomes Based on Goals
 How do different theater campaigns for plays fare in relation to their funding goals? Is there any pattern in the amount of funding goals and the success of theater campaigns for plays? Are campaigns in some goal ranges more successful than campaigns in other goal ranges? To answer these questions, I created a frequency table using Excel's countifs() formula to sift through the data and count the number of plays with specified outcomes (successful, failed, canceled) based on different ranges of campaign goals. I compiled this data in a frequency chart then used Excel's sum() function to find the total number of campaigns that fall within different ranges in order to find the percentage of successful, failed, and canceled campaigns. I combined this data in the line graph shown *(graph 3)*.
