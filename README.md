@@ -48,7 +48,7 @@ It was impossible to do any analysis on the canceled campaigns as there were 0 c
 
 
 ### Challenges and Difficulties Encountered
-When trying to reach a conclusion about which month might be best or worse to begin a campaign, it was difficult to reach a conlusion from looking at only the number of outcomes. It was difficult to differentiate between the success of campaigns being correlated with the month of the year or the higher number of campaigns launched. In May, 166 campaigns were launched versus December when only 75 campaigns were launched, so I had to consider a different method of analysis to eliminate the number of campaigns.
+When trying to reach a conclusion about which month might be best or worse to begin a campaign, it was difficult to reach a conlusion from looking at only the number of outcomes. It was difficult to differentiate between the success of campaigns being correlated with the month of the year or the higher number of campaigns launched. In May, 166 campaigns were launched versus December when only 75 campaigns were launched, so I had to consider a different method of analysis to eliminate the number of campaigns as a variable.
 
 When comparing the outcomes to the campaign goals, the data showed a 67% success rate for campaigns with goals from $35,000 to $44,999. Based on percentages alone, it would seem reasonable to conclude that these goal ranges would be more likely to yield successful campaigns; however, there are only 9 campaigns total for this range of campaign goals. I would be unreasonable to make any conclusions based on such a small amount of data. 
 
