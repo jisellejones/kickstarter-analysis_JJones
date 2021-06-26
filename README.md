@@ -26,7 +26,7 @@ Are some months of the year worse than others for launching theater campaigns fo
 
 ---
 *(graph 1)*
-![Theater_Outcomes_vs_Launch](https://github.com/jisellejones/kickstarter-analysis_JJones/blob/main/Outcomes%20Based%20on%20Launch%20Date.png)
+![Theater_Outcomes_vs_Launch](https://github.com/jisellejones/kickstarter-analysis_JJones/blob/main/Theater_Outcomes_vs_Launch.png)
 
 ---
 *(graph 2)*
